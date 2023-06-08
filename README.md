@@ -1,45 +1,50 @@
+# README Generator CLI Application • ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-  # README Generator CLI Application • ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+## Table of Contents
 
-  ## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
 
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contribution](#contribution)
-  - [Tests](#tests)
-  - [License](#license)
-  - [Questions](#questions)
+## Description
 
-  ## Description
+A command-line interface application that helps users easily generate a professional README file for their projects. Based on the information provided by the user when prompted in the CLI, a README file will be automatically created and structured in markdown format.
 
-  A CLI application that generates a professional README file from user inputs
+## Installation and Usage
 
-  ## Installation Instructions
+Use the `npm i` command to install dependences.
 
-  npm i
+Run the application using the `node index.js` command in the terminal.
 
-  ## Usage Information
+Provide the information you want to be displayed in each section when prompted:
 
-  The ability to create a professional README with sections based from user prompt inputs.
+- Title
+- Description
+- Installation instructions
+- Usage information
+- Guidelines for contribution
+- License type
+- GitHub username
+- Email address
 
-  ## Guidelines for Contribution
+A README.md file in markdown format will be generated in the current directory after all prompts are completed. It will include a dynamic Table of Contents that jumps to a selected section, and clickable links to your GitHub and email.
 
-  No touchy!
+## Guidelines for Contribution
 
-  ## Testing Instructions
+No touchy!
 
-  Utilize test suite.
+## Testing Instructions
 
-  
-   ## License 
-  
-   This project is covered under the MIT license.
-    
-    
+Test manually by running the application and verifying the generated `README.md` file has the correction information structured in markdown format.
 
-  ## Questions
+## License
 
-  Reach out to me via [Github](https://github.com/hollyniquette) or [Email me](mailto:hollyniquette@gmail.com) with any questions.
-  
-  
+This project is covered under the MIT license.
+
+## Questions
+
+Reach out to me via [Github](https://github.com/hollyniquette) or [Email me](mailto:hollyniquette@gmail.com) with any questions or issues you might have.
