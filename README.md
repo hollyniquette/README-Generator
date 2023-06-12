@@ -16,7 +16,7 @@ A command-line interface application that helps users easily generate a professi
 
 ## Installation and Usage
 
-Use the `npm i` command to install dependences.
+Use the `npm i` command to install dependencies.
 
 Run the application using the `node index.js` command in the terminal.
 
